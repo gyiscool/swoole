@@ -1,0 +1,24 @@
+{
+    "name": "swoole/MSN",
+    "description": "swoole.",
+    "keywords": ["framework", "chat"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.4",
+		"monolog/monolog": "1.*"  
+    },
+	
+    "autoload":{
+        "psr-4":{
+            "Libs\\":"libs"
+        }
+	},
+	
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
